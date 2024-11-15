@@ -13,6 +13,10 @@ export default <Partial<Config>>{
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Antic'],
+        serif: ['Six Caps']
+      },
       colors: {
         'red-plug': {
           '50': 'rgb(var(--color-red-plug-50))',

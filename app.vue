@@ -5,7 +5,10 @@
 </template>
 
 <script setup lang="ts">
-
-
+useHead({
+  htmlAttrs: {
+    class: 'dark-mode scroll-smooth'
+  }
+})
 
 </script>
