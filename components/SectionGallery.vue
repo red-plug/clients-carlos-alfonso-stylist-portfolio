@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-9 lg:grid-rows-6 h-auto sm:h-[75rem] md:h-[90rem] lg:h-[60rem] xl:h-[75rem] gap-y-4 sm:gap-4 px-12 sm:px-4 md:px-0">
+  <div class="flex flex-col sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-9 lg:grid-rows-6 h-auto sm:h-[75rem] md:h-[90rem] lg:h-[60rem] xl:h-[75rem] gap-y-4 sm:gap-4 sm:px-4 md:px-0">
     <GalleryPhoto class="sm:row-span-3" label="Natural" photo="/images/creative-1.webp">
       <p class="mt-4">
         ¿Te sientes más tú en prendas frescas, simples y en tonos naturales? El estilo natural es ideal para quienes aman la comodidad y buscan reflejar una imagen genuina y tranquila.
