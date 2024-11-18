@@ -17,7 +17,7 @@
                     <slot />
 
                     <div class="flex justify-center mt-16">
-                        <Button as="a" href="/#contact" @click="makeContact">
+                        <Button as="a" href="/#contact" @click="makeContact" class="text-white">
                             Enseñame más
                         </Button>
                     </div>

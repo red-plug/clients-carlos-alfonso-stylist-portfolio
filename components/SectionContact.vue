@@ -26,7 +26,7 @@
                 </Fluid>
                 <div class="flex justify-end mt-2">
                     <div>
-                        <Button type="submit">
+                        <Button type="submit" class="text-white">
                             Enviar
                         </Button>
                     </div>

@@ -7,5 +7,14 @@
         <Footer />
     </main>
     <SidebarRight />
-    <ScrollTop />
+    <ScrollTop :pt="scrollTopOptions" />
 </template>
+<script setup lang="ts">
+
+import type { ScrollTopPassThroughOptions } from 'primevue/scrolltop';
+const scrollTopOptions = {
+    root: {
+        class: 'text-white'
+    }
+} as ScrollTopPassThroughOptions
+</script>
