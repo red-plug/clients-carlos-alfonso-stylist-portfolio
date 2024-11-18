@@ -12,3 +12,12 @@
         <SectionContact />
     </section>
 </template>
+<script setup lang="ts">
+useSeoMeta({
+    title: 'Carlos Alfonso Stylist | Inicio',
+    ogTitle: 'Carlos Alfonso Stylist',
+    description: '',
+    ogDescription: '',
+    ogImage: '/images/me.webp',
+})
+</script>

@@ -14,7 +14,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Antic'],
+        sans: ['Oswald'],
         serif: ['Six Caps']
       },
       colors: {

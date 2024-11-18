@@ -24,8 +24,18 @@
                     </ul>
                 </div>
                 <Divider layout="vertical" class="hidden md:flex before:border-primary" />
-                <div class="w-1/2 hidden md:block">
-                    efq
+                <div class="w-1/2 hidden md:flex flex-col justify-center px-16 gap-y-8">
+                    <p>
+                        <span class="text-primary font-serif text-3xl">CA</span> | Contáctame
+                    </p>
+                    <h4 class="text-4xl">
+                        ¿Estás preparado para dar el paso a tu verdadero yo?
+                    </h4>
+                    <div>
+                        <Button class="text-white" as="a" href="https://wa.me/523331272308?text=Hola, estoy interesado en tus asesorías" target="_blank" outlined>
+                            Mandame un <Icon name="fa6-brands:whatsapp" /> WhatsApp
+                        </Button>
+                    </div>
                 </div>
             </div>
         </Drawer>

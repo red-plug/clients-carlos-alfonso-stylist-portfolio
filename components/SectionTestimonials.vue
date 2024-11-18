@@ -1,10 +1,10 @@
 <template>
-    <div class="relative">
-        <img src="/images/testimonials.webp" alt="" />
-        <div class="absolute bg-surface-900 w-11/12 md:w-6/12 h-5/6 sm:h-2/3 md:h-1/2 left-0 md:left-1/3 -translate-y-1/2 translate-x-[5%] md:translate-x-1/4 top-1/2">
+    <div class="relative" data-aos="fade-up">
+        <img src="/images/testimonials.webp" alt="Imagen de fondo de una mujer con estilo" />
+        <div class="absolute bg-surface-900 w-11/12 md:w-6/12 h-full sm:h-2/3 md:h-full xl:h-1/2 left-0 md:left-1/3 -translate-y-1/2 translate-x-[5%] md:translate-x-1/4 top-1/2">
             <Carousel :value="testimonials" circular :autoplayInterval="6000" :showIndicators="false" :pt="psCarousel">
                 <template #item="slotProps">
-                    <div class="h-full flex flex-col justify-between py-8">
+                    <div class="h-full flex flex-col justify-between py-6 md:py-8">
                         <div>
                             <div class="flex justify-between">
                                 <div class="flex gap-x-1 md:gap-x-2 text-primary items-end pb-4">
@@ -15,14 +15,14 @@
                                 </div>
                             </div>
                             <div class="mt-2 md:mt-4 md:h-14 lg:h-24">
-                                <p v-text="slotProps.data.description" class="text-lg md:text-xl">
+                                <p v-text="slotProps.data.description" class=" text-base md:text-lg lg:text-xl">
                                 </p>
                             </div>
                         </div>
                         <div>
-                            <hr />
-                            <div class="mt-4">
-                                <h4 class="text-2xl font-bold" v-text="slotProps.data.name"> 
+                            <hr class="border-primary" />
+                            <div class="mt-2">
+                                <h4 class="text-xl font-bold" v-text="slotProps.data.name"> 
                                 </h4>
                                 <p class="text-lg" v-text="slotProps.data.location ?? 'None'" :class="{'opacity-0': !slotProps.data.location}">     
                                 </p>

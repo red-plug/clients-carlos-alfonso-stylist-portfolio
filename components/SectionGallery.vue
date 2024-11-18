@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-9 lg:grid-rows-6 h-auto sm:h-[75rem] md:h-[90rem] lg:h-[60rem] xl:h-[75rem] gap-y-4 sm:gap-4 sm:px-4 md:px-0">
-    <GalleryPhoto class="sm:row-span-3" label="Natural" photo="/images/creative-1.webp">
+    <GalleryPhoto class="sm:row-span-3" label="Natural" photo="/images/creative-1.webp" :interval="4500">
       <p class="mt-4">
         ¿Te sientes más tú en prendas frescas, simples y en tonos naturales? El estilo natural es ideal para quienes aman la comodidad y buscan reflejar una imagen genuina y tranquila.
       </p>
@@ -16,7 +16,7 @@
         </li>
       </ul>
     </GalleryPhoto>
-    <GalleryPhoto class="sm:row-span-2" label="Business Casual" photo="/images/business-casual-1.webp">
+    <GalleryPhoto class="sm:row-span-2" label="Business Casual" photo="/images/business-casual-1.webp" :interval="6000">
       <p class="mt-4">
         Si prefieres un look relajado y sin esfuerzo, el estilo casual es ideal para tu día a día. Perfecto para quienes quieren lucir bien, sentirse cómodos y estar siempre listos para cualquier plan.
       </p>
@@ -32,7 +32,7 @@
         </li>
       </ul>
     </GalleryPhoto>
-    <GalleryPhoto class="sm:row-span-3" label="Elegante" photo="/images/elegant-1.webp">
+    <GalleryPhoto class="sm:row-span-3" label="Elegante" photo="/images/elegant-1.webp" :interval="9000">
       <p class="mt-4">
         Perfecto para quienes buscan distinción y refinamiento en cada detalle. El estilo elegante habla de sofisticación y buen gusto. Ideal para eventos importantes o para quienes buscan una imagen siempre pulcra.
       </p>
@@ -48,7 +48,7 @@
         </li>
       </ul>
     </GalleryPhoto>
-    <GalleryPhoto class="sm:row-span-3 lg:col-start-1 lg:row-start-4" label="Romántico" photo="/images/romantic-1.webp">
+    <GalleryPhoto class="sm:row-span-3 lg:col-start-1 lg:row-start-4" label="Romántico" photo="/images/romantic-1.webp" :interval="4500">
       <p class="mt-4">
         Si amas los detalles delicados y los tonos suaves, ¡el estilo romántico está hecho para ti! Con encajes, volantes y colores pastel, lograrás un look soñador que destaca por su elegancia y femineidad.
       </p>
@@ -64,7 +64,7 @@
         </li>
       </ul>
     </GalleryPhoto>
-    <GalleryPhoto class="sm:row-span-3 lg:col-start-2 lg:row-start-3" label="Dramático" photo="/images/drama-1.webp">
+    <GalleryPhoto class="sm:row-span-3 lg:col-start-2 lg:row-start-3" label="Dramático" photo="/images/drama-1.webp" :interval="6000">
       <p class="mt-4">
         Si te encanta experimentar con tus outfits y ser el centro de atención, el estilo creativo es para ti. Aquí no hay reglas: mezcla estampados, colores vibrantes y texturas para reflejar tu personalidad única.
       </p>
@@ -94,7 +94,7 @@
         </li>
       </ul>
     </GalleryPhoto>
-    <GalleryPhoto class="col-start-2 lg;row-start-6" label="Seductor" photo="/images/seductor-1.webp">
+    <GalleryPhoto class="col-start-2 lg:row-start-6" label="Seductor" photo="/images/seductor-1.webp" :interval="9000">
       <p class="mt-4">
         ¿Te gusta destacar y sentirte seguro de ti mismo? Con el estilo seductor puedes resaltar lo mejor de ti de una manera elegante. Prendas ajustadas y detalles de lujo harán que tu look sea simplemente irresistible.
       </p>
