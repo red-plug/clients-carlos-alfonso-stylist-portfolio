@@ -1,5 +1,5 @@
 <template>
-    <div class="cursor-pointer" @click="showModal = true" data-aos="zoom-in">
+    <div class="cursor-pointer" @click="showModal = true" >
         <div class="relative group sm:h-full overflow-hidden">
             <div class="absolute h-full w-full flex justify-center items-center transition-opacity ease-in-out delay-150 opacity-0 group-hover:opacity-75 duration-200 bg-black z-[1]">
                 <h3 class="text-3xl font-medium hover:text-primary absolute">
