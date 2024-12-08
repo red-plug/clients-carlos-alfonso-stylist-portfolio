@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-9 lg:grid-rows-6 h-auto sm:h-[75rem] md:h-[90rem] lg:h-[60rem] xl:h-[75rem] gap-y-4 sm:gap-4 sm:px-4 md:px-0">
-    <GalleryPhoto class="sm:row-span-3" label="Natural" photo="/images/creative-1.webp" :interval="4500">
+    <GalleryPhoto class="sm:row-span-3" label="Natural" photo="/images/natural-1.webp" :interval="4500">
       <p class="mt-4">
         ¿Te sientes más tú en prendas frescas, simples y en tonos naturales? El estilo natural es ideal para quienes aman la comodidad y buscan reflejar una imagen genuina y tranquila.
       </p>
@@ -66,15 +66,17 @@
     </GalleryPhoto>
     <GalleryPhoto class="sm:row-span-3 lg:col-start-2 lg:row-start-3" label="Dramático" photo="/images/drama-1.webp" :interval="6000">
       <p class="mt-4">
-        Si te encanta experimentar con tus outfits y ser el centro de atención, el estilo creativo es para ti. Aquí no hay reglas: mezcla estampados, colores vibrantes y texturas para reflejar tu personalidad única.
+        El estilo Dramático está hecho para quienes aman destacar y ser el centro de atención con looks impactantes, audaces y llenos de personalidad. Este estilo se caracteriza por líneas arquitectónicas, colores intensos y contrastes atrevidos que transmiten seguridad y poder. Es perfecto para quienes disfrutan romper moldes y mostrar su lado más sofisticado y llamativo.
       </p>
       <p class="font-bold bt-16">
         Consejos:
       </p>
       <ul class="mt-4 list-disc	list-outside ps-4">
         <li>
+          Elige prendas con cortes estructurados y formas únicas: Busca piezas con volúmenes, asimetrías o detalles arquitectónicos que creen impacto visual. Un abrigo de diseño o un vestido con pliegues únicos puede ser el protagonista de tu look.
         </li>
         <li>
+          Apuesta por colores intensos y contrastes: Incorpora tonos como rojo, negro, blanco o incluso metalizados, y combínalos con accesorios llamativos como bolsos geométricos o zapatos de diseño exclusivo.
         </li>
       </ul>
     </GalleryPhoto>

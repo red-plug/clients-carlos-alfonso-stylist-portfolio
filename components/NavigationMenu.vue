@@ -1,6 +1,6 @@
 <template>
     <div class="w-full flex justify-center">
-        <Button rounded class="w-12 h-12 md:w-14 md:h-14 text-4xl group relative text-white" outlined @click="showMenu = !showMenu">
+        <Button rounded class="w-12 h-12 md:w-14 md:h-14 text-4xl group relative text-white" outlined @click="showMenu = !showMenu" aria-label="Abrir menú">
             <div class="flex absolute opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
                 <Icon name="heroicons:bars-3" />
             </div>
@@ -32,7 +32,7 @@
                         ¿Estás preparado para dar el paso a tu verdadero yo?
                     </h4>
                     <div>
-                        <Button class="text-white" as="a" href="https://wa.me/523331272308?text=Hola, estoy interesado en tus asesorías" target="_blank" outlined>
+                        <Button class="text-white" as="a" href="https://wa.me/523331272308?text=Hola, estoy interesado en tus asesorías" target="_blank" rel="noopener noreferer" outlined>
                             Mandame un <Icon name="fa6-brands:whatsapp" /> WhatsApp
                         </Button>
                     </div>

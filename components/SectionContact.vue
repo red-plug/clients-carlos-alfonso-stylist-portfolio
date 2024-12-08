@@ -2,7 +2,7 @@
     <div class="h-screen grid grid-cols-1 md:grid-cols-2 gap-x-4">
         <div class="col-span-1 flex flex-col justify-center px-4  sm:px-0 lg:px-16">
             <div class="mb-2" data-aos="fade-down">
-                <Button rounded severity="secondary" size="small" class="px-8 text-primary">
+                <Button rounded severity="secondary" size="small" class="px-8 text-primary" aria-label="Botón de adorno">
                     Contacto
                 </Button>
             </div>
@@ -24,9 +24,9 @@
                         <label for="message">Mensaje</label>
                     </FloatLabel>
                 </Fluid>
-                <div class="flex justify-end mt-2">
-                    <div>
-                        <Button type="submit" class="text-white">
+                <div class="flex md:justify-end mt-2">
+                    <div class="w-full md:w-auto">
+                        <Button type="submit" class="text-white w-full" aria-label="Enviar mensaje de contacto">
                             Enviar
                         </Button>
                     </div>

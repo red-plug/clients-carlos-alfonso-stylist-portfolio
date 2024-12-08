@@ -2,7 +2,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8">
         <div class="col-span-1 flex gap-x-8 items-center lg:items-start">
             <div class="w-1/2 md:w-full">
-                <img src="/images/me.webp" alt="Carlos Alfonso Stylist" class="w-full lg:w-4/5 border-r border-primary border-dashed" data-aos="fade-right">
+                <img src="/images/me.webp" alt="Carlos Alfonso Stylist" class="w-full lg:w-4/5 border-primary" data-aos="fade-right">
             </div>
             <h2 class="text-2xl font-bold block md:hidden w-1/2">
                 ¿Quién es <span class="text-primary">Carlos Alfonso Stylist</span>?
@@ -12,8 +12,20 @@
             <h2 class="text-3xl md:text-4xl font-bold hidden md:block">
                 ¿Quién es  <span class="text-primary">Carlos Alfonso Stylist</span>?
             </h2>
-            <p class="md:mt-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus mi in tortor blandit vehicula. Sed nec sapien scelerisque, pulvinar eros vel, venenatis dolor. Vestibulum tincidunt metus ac congue euismod. Nulla sit amet auctor lectus, sed gravida metus. Aenean tempor magna sed libero venenatis consequat. Mauris id felis odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus aliquam libero non ex luctus, ut viverra lacus luctus. Nulla dignissim nibh turpis, vel dignissim ante aliquet id. Suspendisse nulla ligula, volutpat sed arcu non, feugiat venenatis lectus. Quisque suscipit tellus sit amet tellus bibendum, blandit consectetur nunc dictum. Etiam malesuada at nulla id aliquam.
+            <p class="md:mt-8 mb-2">
+                Desde niño, la moda ha sido parte de mi vida. Me fascinaba observar las pasarelas, las revistas de moda, experimentar con las telas en el taller de mi papá, o simplemente, ver a mi mamá arreglada para cada ocasión.            
+            </p>
+            <p class="mb-2">
+                Siempre he disfrutado ayudar a quienes me rodean: amigas, tías, amigos y colegas, dándoles consejos para que se sientan cómodos y seguros con su estilo. Esto me llevó a especializarme tanto teórica como prácticamente para ofrecer un servicio de asesoría totalmente personalizado, adaptado a los gustos, rutinas y necesidades de cada persona.
+            </p>
+            <p class="mb-2">
+                Si alguna vez te dijeron que no puedes combinar ciertos colores o estilos, ¡te mintieron! Estoy aquí para ayudarte a romper las reglas, a descubrir tu propia esencia a través de la ropa y a proyectar tu mejor versión con seguridad y estilo.
+            </p>
+            <p class="mb-2">
+                Porque la moda se repite, pero tú estilo jamás. 
+            </p>
+            <p class="text-primary">
+                ¿Te animas a dar el primer paso hacia tu mejor look?
             </p>
         </div>
         <div class="col-span-1 hidden lg:block" data-aos="fade-left">    
