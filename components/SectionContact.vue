@@ -13,7 +13,7 @@
                 </span>
             </h2>
             <div class="hidden md:flex justify-end" data-aos="zoom-in">
-                <img src="/images/contact.webp" class="transition-all duration-500 w-1/3 rounded-full hover:rounded-3xl border-2 border-primary border-dashed"/>
+                <img src="/images/contact.webp" alt="Imagen de contacto" class="transition-all duration-500 w-1/3 rounded-full hover:rounded-3xl border-2 border-primary border-dashed"/>
             </div>
         </div>
         <div class="col-span-1 flex flex-col justify-center" data-aos="flip-left">

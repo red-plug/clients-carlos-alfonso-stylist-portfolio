@@ -10,9 +10,9 @@
         </Button>
         <Drawer v-model:visible="showMenu" class="!w-full md:!w-[50vw] bg-transparent backdrop-blur-md"  position="right">
             <template #header>
-                <h1 class="text-6xl font-serif">
+                <h3 class="text-6xl font-serif">
                     CARLOS ALFONSO STYLIST
-                </h1>
+                </h3>
             </template>
             <div class="w-full flex h-full pb-8">
                 <div class="w-full md:w-1/2">

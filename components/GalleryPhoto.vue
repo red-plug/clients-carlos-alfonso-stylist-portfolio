@@ -2,9 +2,9 @@
     <div class="cursor-pointer" @click="showModal = true" >
         <div class="relative group sm:h-full overflow-hidden">
             <div class="absolute h-full w-full flex justify-center items-center transition-opacity ease-in-out delay-150 opacity-0 group-hover:opacity-75 duration-200 bg-black z-[1]">
-                <h3 class="text-3xl font-medium hover:text-primary absolute">
+                <h2 class="text-3xl font-medium hover:text-primary absolute">
                     {{ props.label }}
-                </h3>
+                </h2>
             </div>
             <img :src="props.photo" :alt="props.label" class="w-full transition-all duration-300 group-hover:scale-125 group-hover:grayscale-0" :class="{'grayscale': applyGrayscale}"/>
         </div>
