@@ -18,17 +18,17 @@
     </GalleryPhoto>
     <GalleryPhoto class="sm:row-span-2" label="Business Casual" photo="/images/business-casual-1.webp" :interval="6000">
       <p class="mt-4">
-        Si prefieres un look relajado y sin esfuerzo, el estilo casual es ideal para tu día a día. Perfecto para quienes quieren lucir bien, sentirse cómodos y estar siempre listos para cualquier plan.
+        El estilo Business Casual es la combinación perfecta entre profesionalismo y comodidad. Es ideal para quienes buscan proyectar confianza sin perder un toque relajado y moderno. Con la mezcla adecuada de prendas clave como blazers, camisas de corte limpio, pantalones chinos o faldas midi, puedes adaptarlo a cualquier entorno laboral y destacar con un look impecable.
       </p>
       <p class="font-bold mt-16">
         Consejos:
       </p>
       <ul class="mt-4 list-disc	list-outside ps-4">
         <li>
-          Elige piezas de algodón y mezclilla que sean cómodas y versátiles, como tus jeans favoritos o una camiseta básica.
+          Elige telas de calidad: Opta por tejidos como algodón, lana o mezclas que sean duraderas y versátiles.
         </li>
         <li>
-          Mantén colores fáciles de combinar para lograr un look fresco que no pase desapercibido. ¡Casual no significa aburrido!
+          Apuesta por colores neutros: Tonos como azul marino, gris, beige o blanco son ideales para combinaciones elegantes y fáciles.
         </li>
       </ul>
     </GalleryPhoto>
@@ -96,7 +96,7 @@
         </li>
       </ul>
     </GalleryPhoto>
-    <GalleryPhoto class="col-start-2 lg:row-start-6" label="Seductor" photo="/images/seductor-1.webp" :interval="9000">
+    <GalleryPhoto class="col-start-2 lg:row-start-6 row-span-3" label="Seductor" photo="/images/seductor-1.webp" :interval="9000">
       <p class="mt-4">
         ¿Te gusta destacar y sentirte seguro de ti mismo? Con el estilo seductor puedes resaltar lo mejor de ti de una manera elegante. Prendas ajustadas y detalles de lujo harán que tu look sea simplemente irresistible.
       </p>
