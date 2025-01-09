@@ -5,11 +5,9 @@
     <section id="about-me">
         <SectionAbout />
     </section>
-    <DeferredContent>
-        <section id="testimonials">
-            <SectionTestimonials />
-        </section>
-    </DeferredContent>
+    <section id="testimonials">
+        <SectionTestimonials />
+    </section>
     <section id="contact">
         <SectionContact />
     </section>

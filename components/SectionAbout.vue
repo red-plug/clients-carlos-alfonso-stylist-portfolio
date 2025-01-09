@@ -2,7 +2,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8">
         <div class="col-span-1 flex gap-x-8 items-center lg:items-start">
             <div class="w-1/2 md:w-full">
-                <img src="/images/me.webp" alt="Carlos Alfonso Stylist" class="w-full lg:w-4/5 border-primary" data-aos="fade-right">
+                <NuxtImg src="/images/me.webp" alt="Carlos Alfonso Stylist" class="w-full lg:w-4/5 border-primary" data-aos="fade-right" />
             </div>
             <h2 class="text-2xl font-bold block md:hidden w-1/2">
                 ¿Quién es <span class="text-primary">Carlos Alfonso Stylist</span>?
@@ -29,7 +29,7 @@
             </p>
         </div>
         <div class="col-span-1 hidden lg:block" data-aos="fade-left">    
-            <img src="/images/me-2.webp" alt="imagen de un saco rojo" class="grayscale hover:grayscale-0 transition-color duration-1000">
+            <NuxtImg src="/images/me-2.webp" alt="imagen de un saco rojo" class="grayscale hover:grayscale-0 transition-color duration-1000" />
         </div>
     </div>
 </template>

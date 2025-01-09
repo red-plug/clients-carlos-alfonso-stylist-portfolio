@@ -6,12 +6,12 @@
                     {{ props.label }}
                 </h2>
             </div>
-            <img :src="props.photo" :alt="props.label" class="w-full transition-all duration-300 group-hover:scale-125 group-hover:grayscale-0" :class="{'grayscale': applyGrayscale}"/>
+            <NuxtImg :src="props.photo" :alt="props.label" class="w-full transition-all duration-300 group-hover:scale-125 group-hover:grayscale-0" :class="{'grayscale': applyGrayscale}"/>
         </div>
         <Dialog v-model:visible="showModal" modal :header="props.label" class="w-full md:w-3/4">
             <div class="w-full h-full flex gap-x-4 lg:gap-x-8 py-4">
                 <div class="w-3/5 lg:w-2/5 hidden md:block">
-                    <img :src="props.photo" :alt="props.label" class="rounded transition-transform duration-300 ease-out hover:-rotate-1 hover:scale-105" />
+                    <NuxtImg :src="props.photo" :alt="props.label" class="rounded transition-transform duration-300 ease-out hover:-rotate-1 hover:scale-105" />
                 </div>
                 <div class="w-full md:w-2/5 lg:w-3/5 flex flex-col">
                     <slot />

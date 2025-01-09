@@ -24,7 +24,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/icon',
     '@nuxt/fonts',
-    'nuxt-aos'
+    'nuxt-aos',
+    '@nuxt/image'
   ],
   primevue: {
     options: {
