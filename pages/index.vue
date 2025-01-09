@@ -5,9 +5,11 @@
     <section id="about-me">
         <SectionAbout />
     </section>
-    <section id="testimonials">
-        <SectionTestimonials />
-    </section>
+    <DeferredContent>
+        <section id="testimonials">
+            <SectionTestimonials />
+        </section>
+    </DeferredContent>
     <section id="contact">
         <SectionContact />
     </section>
@@ -19,6 +21,7 @@ useSeoMeta({
     description: 'Descubre cómo Carlos Alfonso Stylist transforma la moda en una experiencia única. Asesoría personalizada para encontrar tu esencia, romper reglas y proyectar tu mejor versión con seguridad y estilo. ¡Atrévete a reinventarte!',
     ogDescription: 'Asesoría personalizada para encontrar tu esencia, romper reglas y proyectar tu mejor versión con seguridad y estilo. ¡Atrévete a reinventarte!',
     ogImage: '/images/me-3.jpg',
-    ogImageType: 'image/jpeg'
+    ogImageType: 'image/jpeg',
+    ogType: 'website'
 })
 </script>

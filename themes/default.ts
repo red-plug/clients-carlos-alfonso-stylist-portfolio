@@ -2,8 +2,17 @@ import Lara from "@primevue/themes/lara"
 
 import { definePreset } from '@primevue/themes'
 
+const usedComponents = [
+    'button',
+    'carousel',
+    'dialog',
+    'floatlabel',
+    'divider',
+    'drawer',
+    'textarea',   
+]
 
-export default definePreset(Lara, {
+const theme = definePreset(Lara, {
     semantic: {
         primary: {
             50: 'rgb(var(--color-stylist-50))',
@@ -20,3 +29,15 @@ export default definePreset(Lara, {
         }
     }
 })
+
+// filter the components for the only used
+theme.components = Object.fromEntries(
+    Object.entries(theme.components).filter(([key]) => usedComponents.includes(key))
+);
+
+theme.primitive = {
+    borderRadius: theme.primitive.borderRadius,
+    zinc: theme.primitive.zinc,
+}
+
+export default theme
