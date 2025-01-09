@@ -6,7 +6,7 @@
                     {{ props.label }}
                 </h2>
             </div>
-            <NuxtImg :src="props.photo" :alt="props.label" class="w-full transition-all duration-300 group-hover:scale-125 group-hover:grayscale-0" :class="{'grayscale': applyGrayscale}"/>
+            <NuxtImg :src="props.photo" :alt="props.label" class="w-full transition-all duration-300 group-hover:scale-125 group-hover:grayscale-0" :class="{'grayscale': applyGrayscale}" width="310" height="464" />
         </div>
         <Dialog v-model:visible="showModal" modal :header="props.label" class="w-full md:w-3/4">
             <div class="w-full h-full flex gap-x-4 lg:gap-x-8 py-4">
