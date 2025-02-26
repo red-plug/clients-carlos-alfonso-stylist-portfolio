@@ -7,8 +7,15 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        lang: 'es'
-      }
+        lang: 'es',
+      },
+      script: [
+        {
+          src: 'https://analytics.ahrefs.com/analytics.js',
+          'data-key': 'XLSOG9giSV+ZdWNOfyrkfA',
+          async: true
+        }
+      ]
     }
   },
   typescript: {
