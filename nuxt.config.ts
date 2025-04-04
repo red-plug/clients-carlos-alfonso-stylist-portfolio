@@ -58,18 +58,4 @@ export default defineNuxtConfig({
       apiBase: process.env.API_URL
     }
   },
-  nitro: {
-    prerender: {
-      routes: [
-        '/_ipx/_/images/natural-1.webp',
-        '/_ipx/_/images/business-casual-1.webp',
-        '/_ipx/_/images/elegant-1.webp',
-        '/_ipx/_/images/romantic-1.webp',
-        '/_ipx/_/images/seductor-1.webp',
-        '/_ipx/_/images/drama-1.webp',
-        '/_ipx/_/images/creative-1.webp',
-        ''
-      ]
-    }
-  }
 })
