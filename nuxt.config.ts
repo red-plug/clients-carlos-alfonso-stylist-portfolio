@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       script: [
         {
           src: 'https://analytics.ahrefs.com/analytics.js',
-          'data-key': 'XLSOG9giSV+ZdWNOfyrkfA',
+          'data-key': 'DwX/03JbSINND6A5bandzw',
           async: true
         }
       ]
